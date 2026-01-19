@@ -4,10 +4,10 @@ public class Exam6 {
             for(int j = 1; j <= 9; j++){
                 int num = i * j;
                 if(num >= 1 && num <=9){
-                    System.out.print(" " + num);
+                    System.out.print("  " + num);
                 }
                 else{
-                    System.out.print(num);
+                    System.out.print(" " + num);
                 }
             }
             System.out.println();
