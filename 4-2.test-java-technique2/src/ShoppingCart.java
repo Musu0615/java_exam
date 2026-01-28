@@ -1,11 +1,12 @@
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
-public class ShoppingCart {
+public class ShoppingCart extends LinkedList<Item>{
     List<Item> lists;
 
     public ShoppingCart(){
-        lists = new LinkedList<Item>();
+        lists = new ArrayList<Item>();
     }
         public int getTotalPrice(){
             int totalPrice = 0;
