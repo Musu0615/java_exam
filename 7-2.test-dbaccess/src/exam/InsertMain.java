@@ -14,7 +14,6 @@ public class InsertMain {
 
 	public static void main(String[] args) {
 		MemberDao dao = new MemberDao();
-		//Member member1 = new Member("おおの", LocalDate.of(1990, 9, 12), "男", 3);
 		Member member1 = new Member();
 		member1.setId(4);
 		member1.setName("シロー");
