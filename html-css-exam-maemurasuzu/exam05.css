@@ -1,0 +1,42 @@
+@charset "UTF-8";
+header, div, footer{
+     display: table;
+}
+div{
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+div#header{
+    background-color: aliceblue;
+    width: 900px;
+    height: 80px;
+    color: black;
+}
+div#menu{
+    background-color: aqua;
+    width: 80px;
+    height: 500px;
+    color:black;
+}
+div#content{
+    background-color: pink;
+    width: 740px;
+    height: 500px;
+    color:black;
+}
+div#koukoku{
+    background-color: yellow;
+    width: 80px;
+    height: 500px;
+    color:black;
+}
+footer{
+    background-color: greenyellow;
+    width: 900px;
+    height: 80px;
+    color: black;
+}
+.main{
+    display: flex;
+}
