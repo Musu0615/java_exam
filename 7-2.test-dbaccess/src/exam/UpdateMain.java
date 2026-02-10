@@ -17,12 +17,13 @@ public class UpdateMain {
 		Member members = new Member();
 		members.setAge(100);
 		int count = dao.update(members);
-		
+		System.out.println(count);
 		dao.load(2);
 		System.out.println("id:" + members.getId());
 		System.out.println("name:" + members.getName());
 		System.out.println("age:" + members.getAge());
 		System.out.println("dep_id:" + members.getDepId());
+
 		
 		System.out.println("update終了");
 	}
